@@ -87,7 +87,7 @@ public class Program
             var salary = Convert.ToDouble(Console.ReadLine());
             Console.Write("Gpa: ");
             var joinyear = Convert.ToInt32(Console.ReadLine());
-            var staff = new Student(name, age, salary, joinyear);
+            var staff = new Staff(name, age, salary, joinyear);
             database.AddStaff(staff);
         }
     }
