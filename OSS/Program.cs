@@ -27,6 +27,14 @@ public class Staff : Person
         Console.WriteLine($"My name is {Name},age{Age},salary is{Salary},join year is{Joinyear}")
     }
 }
+public class DB
+{
+    public Person[] People = new Person[50];
+    public void AddStaff(Staff staff)
+    {
+        People[0] = staff;
+    }
+}
 
 public class Program
 {
