@@ -5,7 +5,7 @@ public abstract class Person
     public string Name;
     public int Age;
 
-    public Staff(double name,int age)
+    public person(string name,int age)
     {
         Name = name;
         Age = age;
@@ -32,7 +32,7 @@ public class Staff : Person
     public double Salary;
     public int Joinyear;
 
-    public Student(string name,int age,double salary,int joinyear) : base(name, age)
+    public Staff(string name,int age,double salary,int joinyear) : base(name, age)
     {
         Salary = salary;
         Joinyear = joinyear;
